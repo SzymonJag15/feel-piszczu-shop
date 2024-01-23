@@ -1,0 +1,44 @@
+{
+  "name": "codeme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.3.1",
+    "cookies-next": "^2.1.1",
+    "formik": "^2.2.9",
+    "memory-cache": "^0.2.0",
+    "next": "11.1.2",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.7.0",
+    "normalize.css": "^8.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "17.0.2",
+    "react-facebook-pixel": "^1.0.4",
+    "react-gtm-module": "^2.0.11",
+    "react-redux": "^8.0.7",
+    "react-select": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "react-sticky": "^6.0.3",
+    "react-svg": "^14.0.8",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/memory-cache": "^0.2.3",
+    "@types/react": "17.0.8",
+    "@types/react-gtm-module": "^2.0.1",
+    "@types/react-select": "^4.0.17",
+    "@types/react-slick": "^0.23.4",
+    "@types/react-sticky": "^6.0.4",
+    "typescript": "4.3.2"
+  }
+}

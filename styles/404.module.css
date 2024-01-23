@@ -1,0 +1,51 @@
+.contentWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
+  z-index: 1;
+}
+
+.mainLabel {
+  font-size: 42px;
+  text-align: center;
+}
+
+.subLabel {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contactButton {
+  display: inline-block;
+  transition: var(--animation);
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 1px var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 21px;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.contactButton:hover {
+  color: var(--primary-color);
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.possibilitiesList {
+  margin-bottom: 25px;
+}
+
+.possibilitiesList a {
+  color: var(--primary-color);
+  transition: var(--animation);
+  text-decoration: underline;
+}
+
+.possibilitiesList a:hover {
+  color: #000;
+}

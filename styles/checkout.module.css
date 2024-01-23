@@ -1,0 +1,116 @@
+.main {
+  padding-bottom: 50px;
+}
+
+.formColumnFlex {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.primaryFormLabel {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.primaryFormSmallLabel {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.formLabel {
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.formInput {
+  font-size: 14px;
+  min-height: 50px;
+  border: 1px solid #E4E4E4;
+  border-radius: 0;
+  padding: 15px 20px;
+}
+
+.formInput::placeholder {
+  font-size: 14px;
+  opacity: .5;
+}
+
+.radiosWrapper :global(.form-check) {
+  width: 50%;
+  margin: 0;
+}
+
+.checkboxText {
+  margin-bottom: 0;
+}
+
+.moreAboutYouWrapper,
+.checkboxSection {
+  margin-top: 30px;
+}
+
+.sendOrderButton {
+  display: none;
+}
+
+.SummaryCheckout {
+  padding: 100px 0;
+}
+
+.SummaryCheckout .confirmIcon,
+.SummaryCheckout .primaryLabel,
+.SummaryCheckout .textInfo:last-of-type {
+  margin-bottom: 30px;
+}
+
+.SummaryCheckout .topContent {
+  text-align: center;
+  border-bottom: 1px solid #E4E4E4;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.SummaryCheckout .primaryLabel {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.SummaryCheckout .textInfo {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.SummaryCheckout .textInfoBold {
+  font-weight: 700;
+}
+
+.SummaryCheckout .continueShopButton {
+  height: 44px;
+  border: 1px solid var(--primary-color);
+  padding: 11px 24px;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  text-transform: uppercase;
+  transition: var(--animation);
+}
+
+.SummaryCheckout .continueShopButton:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+@media (min-width: 768px) {
+  .formColumnFlex {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
